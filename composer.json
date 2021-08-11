@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sarikatr\\Pktest\\ServiceProvider"
+                "Sarikatr\\Pktest\\PktestServiceProvider"
             ]
         }
     }
