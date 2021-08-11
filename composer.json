@@ -1,0 +1,26 @@
+{
+    "name": "sarikatr/pktest",
+    "description": "Testing new",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sarikatr",
+            "email": "sarika.sics@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sarikatr\\Pktest\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sarikatr\\Pktest\\ServiceProvider"
+            ]
+        }
+    }
+}
